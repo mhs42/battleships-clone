@@ -1,8 +1,8 @@
-# battleships-clone
+# Battleships Clone
 
 By:
 	Muhammad Haris Saad
-	Shehryar Sohail
+	\nShehryar Sohail
 
 This is a program based off the famous board game "Battleships".
 
