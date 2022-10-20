@@ -4,18 +4,17 @@ By:
 - Muhammad Haris Saad
 - Shehryar Sohail
 
-This is a program based off the famous board game "Battleships".
+This is a program based off the famous board game "Battleships", which is a game played between two players.
 
-It is a game played between two players.
 Each player has 5 ships:
-	Ship 1 (Dimensions 2x1)
-	Ship 2 (Dimensions 3x1)
-	Ship 3 (Dimensions 3x1)
-	Ship 4 (Dimensions 4x1)
-	Ship 5 (Dimensions 5x1)
+-Ship 1 (Dimensions 2x1)
+-Ship 2 (Dimensions 3x1)
+-Ship 3 (Dimensions 3x1)
+-Ship 4 (Dimensions 4x1)
+-Ship 5 (Dimensions 5x1)
 
 
-To begin with, both players must place their ships on a 10x10 grid (0,0 to 9,9) on separate turns.
+To begin, both players must place their ships on a 10x10 grid (0,0 to 9,9) on separate turns.
 To prevent cheating, one player must look away when it is the other's turn.
 
 Players will be asked to enter the coordinates of a specific element, by being told to enter a row number and a column number.
@@ -36,10 +35,10 @@ You will be shown your own ships on a grid above, and the grid which you have to
 Your own ships will be visible by their ship number of the length of their dimensions (i.e. Ship 2, for example, will be displayed as  2 2 2).
 
 On each grid:
-	0 - Unbombed
-	1/2/3/4/5 - Part of a specific ship
-	X - Bombed but no ship
-	H - Bombed and hit
-	S - Bombed and sunken (only happens when all the other elements housing that one ship have been bombed as well)
+-0 - Unbombed
+-1/2/3/4/5 - Part of a specific ship
+-X - Bombed but no ship
+-H - Bombed and hit
+-S - Bombed and sunken (only happens when all the other elements housing that one ship have been bombed as well)
 
 If one player sinks all the other player's ships when bombing them, then that player will win!
