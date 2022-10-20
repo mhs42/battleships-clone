@@ -35,10 +35,10 @@ You will be shown your own ships on a grid above, and the grid which you have to
 Your own ships will be visible by their ship number of the length of their dimensions (i.e. Ship 2, for example, will be displayed as  2 2 2).
 
 On each grid:
--0 - Unbombed
--1/2/3/4/5 - Part of a specific ship
--X - Bombed but no ship
--H - Bombed and hit
--S - Bombed and sunken (only happens when all the other elements housing that one ship have been bombed as well)
+-0: Unbombed
+-n: Part of a ship *n* where n = 1, 2, 3, 4, or 5, depending on which ship got hit
+-X: Bombed but no ship
+-H: Bombed and hit
+-S: Bombed and sunken (only happens when all the other elements housing that one ship have been bombed as well)
 
 If one player sinks all the other player's ships when bombing them, then that player will win!
