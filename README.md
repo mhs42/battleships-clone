@@ -1,8 +1,8 @@
 # Battleships Clone
-
+"""
 By:
 	Muhammad Haris Saad
-	\nShehryar Sohail
+	Shehryar Sohail
 
 This is a program based off the famous board game "Battleships".
 
@@ -43,3 +43,4 @@ On each grid:
 	S - Bombed and sunken (only happens when all the other elements housing that one ship have been bombed as well)
 
 If one player sinks all the other player's ships when bombing them, then that player will win!
+"""
